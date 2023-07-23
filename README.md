@@ -4,11 +4,24 @@ This library gives users the ability to view their own active sessions and remov
 
 It works only with database session handler.
 
+[![PHPUnit](https://github.com/michalsn/codeigniter-session-extended/actions/workflows/phpunit.yml/badge.svg)](https://github.com/michalsn/codeigniter-session-extended/actions/workflows/phpunit.yml)
+[![PHPStan](https://github.com/michalsn/codeigniter-session-extended/actions/workflows/phpstan.yml/badge.svg)](https://github.com/michalsn/codeigniter-session-extended/actions/workflows/phpstan.yml)
+[![Deptrac](https://github.com/michalsn/codeigniter-session-extended/actions/workflows/deptrac.yml/badge.svg)](https://github.com/michalsn/codeigniter-session-extended/actions/workflows/deptrac.yml)
+
+![PHP](https://img.shields.io/badge/PHP-%5E8.0-blue)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-%5E4.3-blue)
+
 ### Requirements
 
 This library requires the application to comply with CodeIgniter 4 [authentication recommendations](https://codeigniter.com/user_guide/extending/authentication.html).
 
 ### Installation
+
+#### Composer
+
+    composer require michalsn/codeigniter-session-extended
+
+#### Manually
 
 In the example below we will assume, that files from this project will be located in `app/ThirdParty/session-extended` directory.
 
